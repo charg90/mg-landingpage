@@ -1,10 +1,51 @@
+/* navbar styles */
+
 .navBar {
-  background-color: #003d8f;
+  background-image: url("./img/pattern3.png");
 }
 
 .navBarText {
   font-size: 1.5rem;
 }
+.navBarText:hover {
+  color: red !important;
+  text-decoration: underline;
+  text-decoration-color: aqua;
+}
+
+/* carrousel styles */
 .carouselImg {
   height: 50vh;
+}
+
+/*Info styles */
+.container__info {
+  background-color: #003d8f;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+.container__letters {
+  font-size: 1.5rem;
+}
+
+/* Cards */
+
+.card__Container {
+  background-image: url("./img/pattern3.png");
+  width: 18rem;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.card__Container:hover {
+  -webkit-box-shadow: 7px 7px 20px 10px rgba(0, 0, 0, 0.57);
+  box-shadow: 7px 7px 20px 10px rgba(0, 0, 0, 0.57);
+}
+
+/* footer */
+
+.footer__container {
+  background-color: #003d8f;
 }
