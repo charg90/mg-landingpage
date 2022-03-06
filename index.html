@@ -15,9 +15,11 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <scrip src="./javascript.js"></scrip>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    
     <link rel="stylesheet" href="./styles.css" />
     <script src="https://kit.fontawesome.com/24ffbeeff2.js" crossorigin="anonymous"></script>
@@ -136,12 +138,12 @@
    </div>
 
    <!-- Mas vendidos-->
-   <h2 class="text-center mt-5"> Mas Vendidos </h2>
+   <h2 class="text-center mt-5 animate__animated animate__bounce animate__infinite	infinite"> Mas Vendidos </h2>
    <div class="container mt-5 ">
      <div class="row ">
-       <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center " >
-        <div class="card card__Container "  data-aos="fade-right"
-        data-aos-anchor-placement="center-bottom">
+       <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center "data-aos="fade-up"
+       data-aos-anchor-placement="top-bottom" >
+        <div class="card card__Container    "  >
         <img src="./../img/117-camion-gigante.png" class="card-img-top" alt="...">
       <div class="card-body">
           <h2 class="card-title text-center text-white card__title">Camion Gigante </h2>
@@ -151,7 +153,8 @@
       </div>
     </div>
                 <!--Card 2-->
-      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4  mt-2 d-flex justify-content-center align-items-center">
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4  mt-2 d-flex justify-content-center align-items-center "data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom">
         <div class="card card__Container" >
            <img src="./../img/112-monopatin.png" class="card-img-top" alt="..."/>
            <div class="card-body">
@@ -164,7 +167,8 @@
 
         <!-- Card 3-->
         <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-2 d-flex justify-content-center align-items-center">
-          <div class="card card__Container" >
+          <div class="card card__Container" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom">
              <img src="./../img/122-primer-escarabajo.png" class="card-img-top" alt="Primer Escarabjo"/>
              <div class="card-body">
                         <h2  class="card-title text-white text-center">Primer Escarabajo</h2>
@@ -203,6 +207,9 @@
 
       
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./javascript.js"></script>
+    
   
   </body>
 </html>
