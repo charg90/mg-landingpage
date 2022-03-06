@@ -7,12 +7,18 @@
     <meta name="description" content="Juguetes plásticos para Nenes, autos, camiones y mucho más. Megaprice es una empresa orientada a la producción de distintas líneas de juguetes plásticos para la Primera Infancia, dentro de estándares elevados de calidad y a un precio accesible para el consumidor final."/>
     <meta name="keywords" content="auto, Camión, jeep, 4x4, volcador, transportador, estación de servicio, lanza autos, juguetes, juguetes de plástico, primera infancia, juguetes pequeños, juguetes para encastrar, duraderos, seguros"/>
 
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Press+Start+2P&display=swap" rel="stylesheet">
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <scrip src="./javascript.js"></scrip>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
     <link rel="stylesheet" href="./styles.css" />
     <script src="https://kit.fontawesome.com/24ffbeeff2.js" crossorigin="anonymous"></script>
     <title>MegaPrice</title>
@@ -46,14 +52,14 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                  <a
-                    class="nav-link active text-white navBarText"
+                    class="nav-link active text-white navBarText mx-3"
                     aria-current="page"
                     href="./empresa.html"
                     >Empresa
                   </a >
-                  <a class="nav-link text-white navBarText" href="#">Productos</a>
-                  <a class="nav-link text-white navBarText" href="#">Novedades</a>
-                  <a class="nav-link text-white navBarText" href="#">Novedades</a>
+                  <a class="nav-link text-white navBarText mx-3" href="#">Productos</a>
+                  <a class="nav-link text-white navBarText mx-3" href="#">Novedades</a>
+                  <!-- <a class="nav-link text-white navBarText" href="#">Novedades</a> -->
                 </div>
             </div>
     </div>
@@ -133,11 +139,12 @@
    <h2 class="text-center mt-5"> Mas Vendidos </h2>
    <div class="container mt-5 ">
      <div class="row ">
-       <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center">
-        <div class="card card__Container " >
+       <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center " >
+        <div class="card card__Container "  data-aos="fade-right"
+        data-aos-anchor-placement="center-bottom">
         <img src="./../img/117-camion-gigante.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-center text-white">Camion Gigante </h5>
+      <div class="card-body">
+          <h2 class="card-title text-center text-white card__title">Camion Gigante </h2>
           <p class="card-text text-center text-white">Articulo:177</p>
           <a href="#" class="btn btn-primary ">Ver Mas</a>    
         </div>
@@ -148,7 +155,7 @@
         <div class="card card__Container" >
            <img src="./../img/112-monopatin.png" class="card-img-top" alt="..."/>
            <div class="card-body">
-                      <h5 class="card-title text-white text-center">Monopatin</h5>
+                      <h2 class="card-title text-white text-center">Monopatin</h2>
                       <p class="card-text text-white text-center">Articulo:112</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
@@ -160,7 +167,7 @@
           <div class="card card__Container" >
              <img src="./../img/122-primer-escarabajo.png" class="card-img-top" alt="Primer Escarabjo"/>
              <div class="card-body">
-                        <h5 class="card-title text-white text-center">Primer Escarabajo</h5>
+                        <h2  class="card-title text-white text-center">Primer Escarabajo</h2>
                         <p class="card-text text-white text-center">Articulo:122</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -193,6 +200,9 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
+
+      
     ></script>
+  
   </body>
 </html>
